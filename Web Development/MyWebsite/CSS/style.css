@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+aside {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+ol {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+address {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:darkcyan;
+    color:white;
+    margin: 20px;
+    padding: 0px;
+    padding-top: 65px;
+    box-sizing: border-box;
+}
+            |
+            
+header {
+    background-size:cover;
+    background-position:center;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 100px 0;
+    margin: 0px;
+}
+
+.navbar {
+    font-family:'Roboto', sans-serif;
+    background-color: darkslategrey; 
+    overflow:hidden;
+    position:sticky;
+    top: 0;
+    width:100%;
+    margin:0px;
+    background-size:cover;
+    z-index:1;
+    padding:20px 22px;
+}
+
+.navbar a {
+    
+    float: left;
+    display: block;
+    color: #fff; 
+    text-align:left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+    text-align:center;
+    display: block;
+
+}
+            
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px #888;
+}
+
+footer {
+    background-color: darkslategrey; 
+    color: #fff; 
+    text-align: center;
+    padding: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }  
+
+  .fa-instagram {
+    background: #f606fe;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #ff0000;
+    color: white;
+  }
+
+  .purple{
+    background-color: #ac16ce;
+    width: 30vw;
+    height: 30vh;
+    margin: 1vw;
+  }
+  
+  .turquoise{
+    background-color: #72E1D1;
+    width: 30vw;
+    height: 30vh;
+    margin: 1vw;
+  }
+
+  button{
+    display: block;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; 
+  }
+
+  li {
+    margin-bottom: 16px; /* Add spacing between list items */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    /*margin-bottom: 16px;*/
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
